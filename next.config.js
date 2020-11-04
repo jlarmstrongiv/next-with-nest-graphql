@@ -16,7 +16,7 @@ module.exports = {
       },
       exclude: /node_modules/,
     };
-    config.module.rules.unshift(tsLoader);
+    config.module.rules.push(tsLoader);
 
     return config;
   },
