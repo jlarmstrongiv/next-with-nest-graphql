@@ -1,6 +1,7 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-
-import { createVercelHttpServerHandler, bootstrapNest } from '../../handler';
+import {
+  createVercelHttpServerHandler,
+  bootstrapNest,
+} from 'create-vercel-http-server-handler';
 import { AppModule } from '../../server/app/app.module';
 import { useGlobal } from '../../server/main';
 
