@@ -1,5 +1,8 @@
+// Nest.js
 // https://docs.nestjs.com/graphql/cli-plugin#using-the-cli-plugin
 // https://github.com/nestjs/graphql/issues/800#issuecomment-639018893
+// Next.js
+// https://nextjs.org/docs/api-reference/next.config.js/custom-webpack-config
 module.exports = {
   webpack: (config, options) => {
     const tsLoader = {
